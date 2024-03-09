@@ -35,7 +35,7 @@ function gridMaker() {
             if (x == 0) { grid[i][j] = 1; y = 6; }
             else { grid[i][j] = 0; y--; }
 
-            if (i == 0 || i == 11 || j == 0 || j == 11) { grid[i][j] = 0; }
+            if (i == 0 || i == 10 || j == 0 || j == 10) { grid[i][j] = 0; }
             console.log(cell[x] + " , " + x);
         }
     }
