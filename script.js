@@ -79,8 +79,8 @@ function gridPrinter() {
             discordMessage += printgrid[i][j];
         }
         discordMessage += "<br>";
-        discordMessage += "<br> https://echoatday.github.io/minesweeper"
     }
+    discordMessage += "https://echoatday.github.io/minesweeper"
     var result = document.getElementById('results')
     result.innerHTML = discordMessage;
 }
